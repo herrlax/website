@@ -7,9 +7,9 @@ export default class ProjectCard extends React.Component {
 
     return (
 
-      <Link to={'/project/${this.props.id}'}>
+      <Link to={`/project/${this.props.id}`}>
         <div className='project-card'>
-          <img src={'img/${this.props.thumbnail}'}/>
+          <img src={`img/${this.props.thumbnail}`}/>
           <h4 className='name'>{this.props.name}</h4>
         </div>
       </Link>
