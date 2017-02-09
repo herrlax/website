@@ -8,24 +8,25 @@ export default class ProjectCard extends React.Component {
     // create style of card with custom background image
     const cardStyle = {
       'backgroundImage': 'url(img/' + `${this.props.thumbnail}` + ')',
-      'background-size': '250px 250px',
+      'background-size': '300px 300px',
       'background-repeat': 'no-repeat',
       'background-position': 'center center',
       'display': 'flex',
       'display': 'inline-block',
-      'flex-direction': 'column'
+      'flex-direction': 'column',
+      'margin': '10px'
     };
 
     return (
 
       <Link to={`/project/${this.props.id}`}>
-        <span style={cardStyle}>
+        <div style={cardStyle}>
           <div className='project-card-inner'>
             <div className='project-card-inner-name'>
               <p>{this.props.name}</p>
             </div>
           </div>
-        </span>
+        </div>
       </Link>
     );
   }
