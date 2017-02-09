@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route, IndexRoute } from 'react-router'
 import Layout from './components/Layout';
-import Index from './components/Index';
+import IndexPage from './components/IndexPage';
 import ProjectInfo from './components/ProjectInfo';
 import NotFound from './components/NotFound';
 
