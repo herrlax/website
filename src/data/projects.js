@@ -4,7 +4,7 @@ const projects = [
     'name':         'Auxiliaire',
     'description':  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula nisi, pharetra vitae est non, porttitor eleifend nulla. Cras condimentum malesuada euismod. Donec tincidunt tincidunt nisl eget semper. Praesent ac molestie felis. Proin sed congue ex. Nunc ut est gravida, vulputate tortor vel, hendrerit elit. Quisque id ante non dolor dictum laoreet. Vivamus mi sapien, pellentesque at elit non, pellentesque scelerisque sem. Aenean blandit quis diam vel laoreet.',
     'mypart':       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula nisi, pharetra vitae est non, porttitor eleifend nulla. Cras condimentum malesuada euismod. Donec tincidunt tincidunt nisl eget semper. Praesent ac molestie felis. Proin sed congue ex. Nunc ut est gravida, vulputate tortor vel, hendrerit elit. Quisque id ante non dolor dictum laoreet. Vivamus mi sapien, pellentesque at elit non, pellentesque scelerisque sem. Aenean blandit quis diam vel laoreet.',
-    'thumbnail':    'thumbnails/auxiliaire',
+    'thumbnail':    'thumbnails/auxiliaire.png',
     'top':          'tops/auxiliarieTop.png',
     'bottom':       'bottoms/auxiliarieBottom.png',
     'link': {
@@ -22,7 +22,7 @@ const projects = [
     'name':         'Capmap',
     'description':  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula nisi, pharetra vitae est non, porttitor eleifend nulla. Cras condimentum malesuada euismod. Donec tincidunt tincidunt nisl eget semper. Praesent ac molestie felis. Proin sed congue ex. Nunc ut est gravida, vulputate tortor vel, hendrerit elit. Quisque id ante non dolor dictum laoreet. Vivamus mi sapien, pellentesque at elit non, pellentesque scelerisque sem. Aenean blandit quis diam vel laoreet.',
     'mypart':       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ligula nisi, pharetra vitae est non, porttitor eleifend nulla. Cras condimentum malesuada euismod. Donec tincidunt tincidunt nisl eget semper. Praesent ac molestie felis. Proin sed congue ex. Nunc ut est gravida, vulputate tortor vel, hendrerit elit. Quisque id ante non dolor dictum laoreet. Vivamus mi sapien, pellentesque at elit non, pellentesque scelerisque sem. Aenean blandit quis diam vel laoreet.',
-    'thumbnail':    'thumbnails/capmap',
+    'thumbnail':    'thumbnails/capmap.png',
     'top':          'tops/capmapTop.png',
     'bottom':       'bottoms/capmapBottom.png',
     'link': {

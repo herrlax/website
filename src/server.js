@@ -57,5 +57,5 @@ server.listen(port, err => {
     return console.error(err);
   }
 
-  console.info('Server up. Running on localhost:${port} [${env}]');
+  console.info(`Server up. Running on localhost:${port} [${env}]`);
 });
