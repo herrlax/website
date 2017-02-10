@@ -1,7 +1,25 @@
-.navigation-menu {
+html {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Work Sans", Verdana;
+}
+
+a {
+  color: #865cd6;
+  text-decoration: none;
+}
+
+.heading {
+  font-size: 18pt;
+}
+
+.navigation {
   background-color: rgba(255,255,255,0.9);
   position: fixed;
   width: 100%;
+  top: 0px;
+}
+
+.navigation-menu{
   padding: 10px;
 }
 
@@ -19,12 +37,8 @@
   margin: 15px;
 }
 
-.app-content {
-}
-
 .project-area {
   padding: 20px;
-  font-family: "Work Sans";
   text-align: center;
 }
 
@@ -42,6 +56,35 @@
   position: absolute;
   bottom: 0px;
   width: inherit;
-  font-weight: bold;
   position: absolute;
+}
+
+.contact-area {
+  background-color: #434343;
+  width: 100%;
+  color: #fff;
+  height: 200px;
+}
+
+.contact-area-img {
+  float: right;
+  width: 200px;
+  height: 200px;
+}
+
+.contact-area-text {
+  font-size: 12pt;
+  float: left;
+  margin-left: 30px;
+  width: 400px;
+  color: rgba(255,255,255,0.85);
+  font-weight: 300;
+}
+
+.contact-area-text-links {
+  vertical-align: bottom;
+}
+
+.contact-area-text-links a {
+  color: #fff;
 }
