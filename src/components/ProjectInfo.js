@@ -59,7 +59,7 @@ export default class ProjectInfo extends React.Component {
                           <img src={project.phonescreens[1]} className='pic-medium'/>
                           <img src={project.phonescreens[2]} className='pic-small'/>
                         </div>
-                        
+
     } else { // create screens with a tablets and a phone
       screenContent = <div style={middleStyle}>
                         <img src={project.phonescreens[1]} className='pic-small'/>
@@ -86,7 +86,7 @@ export default class ProjectInfo extends React.Component {
         <div>
 
           <div style={topStyle}>
-            <p className='heading'>{project.name}</p>
+            <p className='heading-large'>{project.name}</p>
             <center>
               <div className='project-text'>{project.description}</div>
             </center>
@@ -95,7 +95,7 @@ export default class ProjectInfo extends React.Component {
           {screenContent}
 
           <div style={bottomStyle}>
-            <p className='heading'>My Part</p>
+            <p className='heading-large'>My Part</p>
             <center>
               <div className='project-text'>{project.mypart}</div>
             </center>
