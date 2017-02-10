@@ -55,9 +55,9 @@ export default class Layout extends React.Component {
                 </div>
               </div>
             </span>
-          </div>
-          <img className='contact-area-img'
-              src='https://d13yacurqjgara.cloudfront.net/users/42659/screenshots/3280436/cs_lewis__illustration_-01.png' />
+            </div>
+            <img className='contact-area-img'
+                src='https://d13yacurqjgara.cloudfront.net/users/42659/screenshots/3280436/cs_lewis__illustration_-01.png' />
         </div>
       </div>
     );

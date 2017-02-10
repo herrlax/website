@@ -48,6 +48,13 @@ export default class ProjectInfo extends React.Component {
       'text-align': 'center'
     };
 
+    // creates component for tablet screenshots, if such exist
+    /*if(!project.tabletscreens) {
+        const content = React.createClass({});
+    } else {
+        const contetn = React.createClass({});
+    }*/
+
     return (
       <div className='project-info-page'>
 
@@ -63,9 +70,9 @@ export default class ProjectInfo extends React.Component {
           </div>
 
           <div style={middleStyle}>
-            <img src={project.screens[0]} className='pic-small'/>
-            <img src={project.screens[1]} className='pic-medium'/>
-            <img src={project.screens[2]} className='pic-small'/>
+            <img src={project.phonescreens[0]} className='pic-small'/>
+            <img src={project.phonescreens[1]} className='pic-medium'/>
+            <img src={project.phonescreens[2]} className='pic-small'/>
           </div>
 
           <div style={bottomStyle}>
