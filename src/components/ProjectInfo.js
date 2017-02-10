@@ -48,12 +48,35 @@ export default class ProjectInfo extends React.Component {
       'text-align': 'center'
     };
 
-    // creates component for tablet screenshots, if such exist
-    /*if(!project.tabletscreens) {
-        const content = React.createClass({});
-    } else {
-        const contetn = React.createClass({});
-    }*/
+    let screenContent = null;
+    let screenContent2 = null;
+    let screenContent3 = null;
+
+    // if no screens for tablets exist, create three with phones
+    if(!project.tabletscreens) {
+        screenContent = <div style={middleStyle}>
+                          <img src={project.phonescreens[0]} className='pic-small'/>
+                          <img src={project.phonescreens[1]} className='pic-medium'/>
+                          <img src={project.phonescreens[2]} className='pic-small'/>
+                        </div>
+                        
+    } else { // create screens with a tablets and a phone
+      screenContent = <div style={middleStyle}>
+                        <img src={project.phonescreens[1]} className='pic-small'/>
+                        <img src={project.tabletscreens[0]} className='pic-large'/>
+                      </div>
+
+      screenContent2 = <div style={middleStyle}>
+                        <img src={project.phonescreens[0]} className='pic-small'/>
+                        <img src={project.phonescreens[2]} className='pic-medium'/>
+                        <img src={project.phonescreens[3]} className='pic-small'/>
+                      </div>
+
+      screenContent3 = <div style={middleStyle}>
+                        <img src={project.phonescreens[5]} className='pic-small'/>
+                        <img src={project.tabletscreens[2]} className='pic-large'/>
+                      </div>
+    }
 
     return (
       <div className='project-info-page'>
@@ -69,11 +92,7 @@ export default class ProjectInfo extends React.Component {
             </center>
           </div>
 
-          <div style={middleStyle}>
-            <img src={project.phonescreens[0]} className='pic-small'/>
-            <img src={project.phonescreens[1]} className='pic-medium'/>
-            <img src={project.phonescreens[2]} className='pic-small'/>
-          </div>
+          {screenContent}
 
           <div style={bottomStyle}>
             <p className='heading'>My Part</p>
@@ -81,6 +100,9 @@ export default class ProjectInfo extends React.Component {
               <div className='project-text'>{project.mypart}</div>
             </center>
           </div>
+
+          {screenContent2}
+          {screenContent3}
         </div>
       </div>
     );

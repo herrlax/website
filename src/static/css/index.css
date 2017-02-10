@@ -118,6 +118,7 @@ a {
 
 .contact-area {
   float: left;
+  text-align: left;
   margin-left: 20px;
   max-width: 500px;
 }
