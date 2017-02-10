@@ -10,6 +10,7 @@ a {
 
 .heading {
   font-size: 18pt;
+  letter-spacing: 3px;
 }
 
 .navigation {
@@ -33,7 +34,7 @@ a {
 }
 
 .navigation-menu-links-item{
-  font-size: 14pt;
+  font-size: 11pt;
   margin: 15px;
 }
 
@@ -59,11 +60,16 @@ a {
   position: absolute;
 }
 
-.contact-area {
+.contact {
   background-color: #434343;
   width: 100%;
   color: #fff;
   height: 200px;
+}
+
+.contact-area {
+  float: left;
+  margin-left: 20px;
 }
 
 .contact-area-img {
@@ -71,13 +77,14 @@ a {
   width: 200px;
   height: 200px;
 }
+.contact-area-title {
+  color: #fff;
+}
 
 .contact-area-text {
-  font-size: 12pt;
-  float: left;
-  margin-left: 30px;
+  font-size: 10pt;
   width: 400px;
-  color: rgba(255,255,255,0.85);
+  color: rgba(255,255,255,0.75);
   font-weight: 300;
 }
 
