@@ -9,9 +9,23 @@ export default class Layout extends React.Component {
 
       <div className='app-container'>
         <div className='navigation-menu'>
-          <Link to='/'>
-            <h2>Mikael Malmqvist</h2>
-          </Link>
+          <span className='navigation-menu-label'>
+            <Link to='/'>
+              Mikael Malmqvist
+            </Link>
+          </span>
+          <span className='navigation-menu-links'>
+            <span className='navigation-menu-links-item'>
+              <Link key='portfoilio' to='#portfoilio' activeClassName="active">
+                Portfoilio
+              </Link>
+            </span>
+            <span className='navigation-menu-links-item'>
+              <Link key='contact' to='#contact' activeClassName="active">
+                Contact
+              </Link>
+            </span>
+          </span>
         </div>
         <div className='app-content'>{this.props.children}</div>
       </div>

@@ -2,6 +2,21 @@
   background-color: rgba(255,255,255,0.9);
   position: fixed;
   width: 100%;
+  padding: 10px;
+}
+
+.navigation-menu-label{
+  font-size: 18pt;
+}
+
+.navigation-menu-links{
+  float: right;
+  margin-right: 25px;
+}
+
+.navigation-menu-links-item{
+  font-size: 14pt;
+  margin: 15px;
 }
 
 .app-content {
@@ -17,6 +32,7 @@
   width: 350px;
   height: 350px;
   position: relative;
+
 }
 
 .project-card-inner-name {
