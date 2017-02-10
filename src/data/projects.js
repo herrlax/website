@@ -12,9 +12,9 @@ const projects = [
       'link': 'https://github.com/AuxiliaireSH/android-app'
     },
     'screens': [
-      'screens/auxiliaire/auxiliaire1.png',
-      'screens/auxiliaire/auxiliaire2.png',
-      'screens/auxiliaire/auxiliaire3.png'
+      '/img/screens/auxiliaire/auxiliaire1.png',
+      '/img/screens/auxiliaire/auxiliaire2.png',
+      '/img/screens/auxiliaire/auxiliaire3.png'
     ]
   },
   {
@@ -30,9 +30,9 @@ const projects = [
       'link': 'https://github.com/capmap/capmap'
     },
     'screens': [
-      'screens/capmap/map.png',
-      'screens/capmap/search.png',
-      'screens/capmap/videos.png'
+      '/img/screens/capmap/map.png',
+      '/img/screens/capmap/search.png',
+      '/img/screens/capmap/videos.png'
     ]
   }
 ];
