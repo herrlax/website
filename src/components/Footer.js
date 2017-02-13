@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router';
+//import FaIconPack from 'react-icons/lib/fa';
+import FaGithub from 'react-icons/lib/fa/github';
+import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
+import FaEnvelope from 'react-icons/lib/fa/envelope';
 
 export default class Layout extends React.Component {
   render() {
@@ -13,17 +17,17 @@ export default class Layout extends React.Component {
             <div className='contact-area-text-links'>
               <div>
                 <Link key='email' to='mailto:mikael@malmqvist.it' activeClassName="active">
-                  mikael@malmqvist.it
+                  <FaEnvelope /> mikael@malmqvist.it
                 </Link>
               </div>
               <div>
                 <Link key='linkedin' to='https://www.linkedin.com/in/mikael-malmqvist-579b70a9/' activeClassName="active">
-                  LinkedIn
+                  <FaLinkedinSquare /> LinkedIn
                 </Link>
               </div>
               <div>
                 <Link key='github' to='https://github.com/herrlax' activeClassName="active">
-                  Github
+                  <FaGithub /> Github
                 </Link>
               </div>
             </div>
