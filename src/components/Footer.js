@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 //import FaIconPack from 'react-icons/lib/fa';
 import FaGithub from 'react-icons/lib/fa/github';
-import FaLinkedinSquare from 'react-icons/lib/fa/linkedin-square';
+import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaEnvelope from 'react-icons/lib/fa/envelope';
 
 export default class Layout extends React.Component {
@@ -22,7 +22,7 @@ export default class Layout extends React.Component {
               </div>
               <div>
                 <Link key='linkedin' to='https://www.linkedin.com/in/mikael-malmqvist-579b70a9/' activeClassName="active">
-                  <FaLinkedinSquare /> LinkedIn
+                  <FaLinkedin /> LinkedIn
                 </Link>
               </div>
               <div>
