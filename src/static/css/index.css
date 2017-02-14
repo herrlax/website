@@ -105,7 +105,7 @@ a {
 }
 
 .project-area {
-  padding: 20px;
+  padding-top: 20px;
   text-align: center;
 }
 
@@ -157,7 +157,7 @@ a {
 }
 
 .contact-area-text-links {
-  vertical-align: bottom;
+  margin-top: 200px;
 }
 
 .contact-area-text-links a {
