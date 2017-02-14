@@ -6,6 +6,10 @@ html {
   font-family: 'Quicksand', 'Open Sans', 'Work Sans', Verdana;
 }
 
+body {
+  margin: 0px;
+}
+
 a {
   color: #865cd6;
   text-decoration: none;
