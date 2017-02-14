@@ -170,3 +170,9 @@ a {
   max-width: 576px;
   line-height: 1.375;
 }
+
+.not-found {
+    text-align: center;
+    margin: 200px;
+    vertical-align: middle;
+}
