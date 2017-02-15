@@ -15,14 +15,10 @@ export default class NavigationMenu extends React.Component {
               </span>
               <span className='navigation-menu-links'>
                 <span className='navigation-menu-links-item'>
-                  <Link key='portfoilio' to='#portfoilio' activeClassName="active">
-                    Portfoilio
-                  </Link>
+                  <a href='/#portfoilio'>Portfoilio</a>
                 </span>
                 <span className='navigation-menu-links-item'>
-                  <Link key='contactMe' to='#contactMe' activeClassName="active">
-                    Contact
-                  </Link>
+                  <a href='/#contactMe'>Contact</a>
                 </span>
               </span>
             </div>
