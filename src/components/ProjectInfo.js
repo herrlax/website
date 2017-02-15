@@ -22,12 +22,9 @@ export default class ProjectInfo extends React.Component {
       'height': '400px',
       'background-size': '100% 100%',
       'background-repeat': 'no-repeat',
-      'background-position': 'center center',
       'display': 'flex',
       'text-align': 'center',
-      'color': '#fff',
-      'display': 'inline-block',
-      'flex-direction': 'column'
+      'color': '#fff'
     };
 
     const bottomStyle = {
@@ -36,12 +33,9 @@ export default class ProjectInfo extends React.Component {
       'height': '400px',
       'background-size': '100% 100%',
       'background-repeat': 'no-repeat',
-      'background-position': 'center center',
       'display': 'flex',
       'text-align': 'center',
-      'color': '#fff',
-      'display': 'inline-block',
-      'flex-direction': 'column'
+      'color': '#fff'
     };
 
     const middleStyle = {
@@ -79,26 +73,30 @@ export default class ProjectInfo extends React.Component {
     }
 
     return (
-      <div className='project-info-page'>
+      <div>
 
         <NavigationMenu />
 
         <div>
 
           <div style={topStyle}>
-            <p className='heading-large'>{project.name}</p>
-            <center>
-              <div className='project-text'>{project.description}</div>
-            </center>
+            <div className='project-info'>
+              <div className='heading-large'>{project.name}</div>
+                <center>
+                  <div className='project-info-text'>{project.description}</div>
+                </center>
+            </div>
           </div>
 
           {screenContent}
 
           <div style={bottomStyle}>
-            <p className='heading-large'>My Part</p>
-            <center>
-              <div className='project-text'>{project.mypart}</div>
-            </center>
+            <div className='project-info'>
+              <div className='heading-large'>My Part</div>
+              <center>
+                <div className='project-info-text'>{project.mypart}</div>
+              </center>
+            </div>
           </div>
 
           {screenContent2}
