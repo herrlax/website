@@ -5,7 +5,7 @@ const projects = [
     'description':  'Auxiliaire is an Android app that helps people help each other out. It was a project during Gothenburg Startup Hack 2016 with a client app written in Java and a back end written in Ruby on Rails.',
     'mypart':       'My part during the project was as both front end Android developer and UX-designer. As the project was done in a 4-man team I worked close together with another Android developer, while the other 2 wrote the back end.',
     'thumbnail':    'thumbnails/auxiliaire.png',
-    'top':          'tops/auxiliarieTop.png',
+    'top':          'tops/auxiliaireTop.png',
     'bottom':       'bottoms/auxiliaireBottom.png',
     'link': {
       'type': 'github',
