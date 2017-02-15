@@ -16,28 +16,22 @@ export default class Layout extends React.Component {
             <p>The easiest way to get in touch with me is via email, but you can also reach me via LinkedIn</p>
             <div className='contact-area-text-links'>
               <div>
-                <Link key='email'
-                      to='mailto:mikael@malmqvist.it'
-                      activeClassName="active"
+                <a href='mailto:mikael@malmqvist.it'
                       target='_blank'>
                   <FaEnvelope /> mikael@malmqvist.it
-                </Link>
+                </a>
               </div>
               <div>
-                <Link key='linkedin'
-                      to='https://www.linkedin.com/in/mikael-malmqvist-579b70a9/'
-                      activeClassName="active"
+                <a href='https://www.linkedin.com/in/mikael-malmqvist-579b70a9/'
                       target='_blank'>
                   <FaLinkedin /> LinkedIn
-                </Link>
+                </a>
               </div>
               <div>
-                <Link key='github'
-                      to='https://github.com/herrlax'
-                      activeClassName="active"
+                <a href='https://github.com/herrlax'
                       target='_blank'>
                   <FaGithub /> Github
-                </Link>
+                </a>
               </div>
             </div>
           </span>
