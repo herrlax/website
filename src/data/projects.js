@@ -97,7 +97,7 @@ const projects = [
     'phonescreens': [
       '/img/screens/plus/plus1.png',
       '/img/screens/plus/plus2.png',
-      '/img/screens/plus/plus1.png',
+      '/img/screens/plus/plus3.png',
     ]
   }
 ];
