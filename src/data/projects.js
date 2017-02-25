@@ -38,8 +38,8 @@ const projects = [
   {
     'id':           'settlers',
     'name':         'Settlers of Catan',
-    'description':  'Settlers is an Android app that helps people help each other out. It was a project during Gothenburg Startup Hack 2016 with a client app written in Java and a back end written in Ruby on Rails.',
-    'mypart':       'My part during the project was as both front end Android developer and UX-designer. As the project was done in a 4-man team I worked close together with another Android developer, while the other 2 wrote the back end.',
+    'description':  'Settlers of Catan Mobile was a project in a course in Graphical Interface design at Chalmers University of Technology, during my masters there. The goal of the project was to design a digital, mobile version of the classic board game Settlers of Catan. The graphical interface of the game was design for phone and tablet using Android guidelines. The tablet was used to visualize the game board, while the phone was used as the Player’s hub, with their cards and the possibility of using resources for buying or trading.',
+    'mypart':       'The project was done in a team of 5 designers where my main responsibility was the design of the phone interface, as well as the user research and testing that was carried out. The user tests was done in order to verify and evaluate the usability of the interface and pinpoint potential usability issues. User requirements and specifications was developed in an early phase of the project with the help of user personas. These were later used to validate the design using validation scenarios and generally helped us to steer the design in the right direction. The user tests were carried out with paper prototypes along with Think-aloud technique. These proved to be very helpful and helped us develop the more hi-fi and interactive prototypes, which was evaluated using InVision. Sketch and Figma were our two main tools when designing the interfaces.',
     'thumbnail':    'thumbnails/settlers.png',
     'top':          'tops/settlersTop.png',
     'bottom':       'bottoms/settlersBottom.png',
