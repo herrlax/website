@@ -39,22 +39,27 @@ export default class ProjectInfo extends React.Component {
     };
 
     const middleStyle = {
-      'text-align': 'center'
+      'text-align': 'center',
+      'margin-left': 'auto',
+      'margin-right': 'auto'
     };
 
     let screenContent = null;
     let screenContent2 = null;
     let screenContent3 = null;
 
-    // if no screens for tablets exist, create three with phones
-    if(!project.tabletscreens) {
-        screenContent = <div style={middleStyle}>
-                          <img src={project.phonescreens[0]} className='pic-small'/>
-                          <img src={project.phonescreens[1]} className='pic-medium'/>
-                          <img src={project.phonescreens[2]} className='pic-small'/>
-                        </div>
+    screenContent = <div style={middleStyle}>
+                      <img src={project.phonescreens[0]} className='pic-small'/>
+                      <img src={project.phonescreens[1]} className='pic-medium'/>
+                      <img src={project.phonescreens[2]} className='pic-small'/>
+                    </div>
 
-    } else { // create screens with a tablets and a phone
+    if(project.phonescreensLandscape) {
+      screenContent2 =  <div style={middleStyle}>
+                          <img src={project.phonescreens[3]} className='pic-medium'/>
+                          <img src={project.phonescreensLandscape[0]} className='pic-large'/>
+                        </div>
+    } else if (project.tabletscreens) { // create screens with a tablets and a phone
       screenContent = <div style={middleStyle}>
                         <img src={project.phonescreens[1]} className='pic-small'/>
                         <img src={project.tabletscreens[0]} className='pic-large'/>

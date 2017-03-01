@@ -32,7 +32,11 @@ const projects = [
     'phonescreens': [
       '/img/screens/capmap/map.png',
       '/img/screens/capmap/search.png',
+      '/img/screens/capmap/signin.png',
       '/img/screens/capmap/videos.png'
+    ],
+    'phonescreensLandscape': [
+      '/img/screens/capmap/videoliked.png'
     ]
   },
   {
