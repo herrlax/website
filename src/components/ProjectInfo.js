@@ -18,8 +18,6 @@ export default class ProjectInfo extends React.Component {
 
     const topStyle = {
       'backgroundImage': 'url(/img/' + `${project.top}` + ')',
-      'width': '100%',
-      'height': '400px',
       'background-size': '100% 100%',
       'background-repeat': 'no-repeat',
       'display': 'flex',
@@ -29,8 +27,6 @@ export default class ProjectInfo extends React.Component {
 
     const bottomStyle = {
       'backgroundImage': 'url(/img/' + `${project.bottom}` + ')',
-      'width': '100%',
-      'height': '400px',
       'background-size': '100% 100%',
       'background-repeat': 'no-repeat',
       'display': 'flex',
