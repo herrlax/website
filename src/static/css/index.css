@@ -36,11 +36,11 @@ a {
 @media (min-width: 900px) {
   .pic-small {
     width: 350px !important;
+    margin-left: -100px;
+    margin-right: -100px;
   }
   .pic-medium {
     width: 400px !important;
-    margin-left: -100px;
-    margin-right: -100px;
   }
   .pic-large {
     width: 550px !important;
@@ -66,8 +66,6 @@ a {
   }
   .pic-medium {
     width: 500px !important;
-    margin-left: -150px;
-    margin-right: -150px;
   }
 }
 

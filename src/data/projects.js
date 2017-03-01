@@ -20,8 +20,8 @@ const projects = [
   {
     'id':           'capmap',
     'name':         'Capmap',
-    'description':  'Capmap is a hobby project allowing users to share life experiences in an easy and fun way through short videos tagged with the user’s geographical location.',
-    'mypart':       'The project consisted of developing an Android app, as well as a backend in Ruby on Rails. The goal with the app was to allow users to share moments of their day based on their current location in 5 second videos. These movies can be viewed by other people from around the world by clicking the corresponding marker on the map. The projects was done in a 2 man team where my part was to design and develop the Android app, the graphical design as well as doing user tests. The project started with a short user study where we figured out what features were most relevant for our user group, in order for us to develop the user requirements. After this a prototype was designed using Sketch, which was evaluated using the same users that was a part of the first user study. The app was then developed using Java, based on the design and the feedback we got from our users. Apart from the features of uploading and streaming videos in the app, Google Sign-In was integrated, which allowed our users to sign into the app using their Google/Gmail account and view their own videos in a list.',
+    'description':  'Capmap allows users to share life experiences in an easy and fun way through short videos tagged with the user’s geographical location. The project consists of the Android app, as well as a backend written in Ruby on Rails. The goal with the app is to allow users to share moments of their day based on their current location in 5 second videos. These movies can be viewed by other people from around the world by clicking the corresponding marker on the map.',
+    'mypart':       'The projects was done in a 2 man team where my part was to design and develop the Android app, the graphical design as well as doing user tests. The project started with a short user study where we figured out what features were most relevant for our user group, in order for us to develop the user requirements. After this a prototype was designed using Sketch, which was evaluated using the same users that was a part of the first user study. The app was then developed using Java, based on the design and the feedback we got from our users. Apart from the features of uploading and streaming videos in the app, Google Sign-In was integrated, which allowed our users to sign into the app using their Google/Gmail account and view their own videos in a list.',
     'thumbnail':    'thumbnails/capmap.png',
     'top':          'tops/capmapTop.png',
     'bottom':       'bottoms/capmapBottom.png',
@@ -33,7 +33,7 @@ const projects = [
       '/img/screens/capmap/map.png',
       '/img/screens/capmap/search.png',
       '/img/screens/capmap/signin.png',
-      '/img/screens/capmap/videos.png'
+      '/img/screens/capmap/videos3.png'
     ],
     'phonescreensLandscape': [
       '/img/screens/capmap/videoliked.png'
