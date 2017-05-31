@@ -14,7 +14,12 @@ const projects = [
     'phonescreens': [
       '/img/screens/auxiliaire/auxiliaire1.png',
       '/img/screens/auxiliaire/auxiliaire2.png',
-      '/img/screens/auxiliaire/auxiliaire3.png'
+      '/img/screens/auxiliaire/auxiliaire3.png',
+      '/img/screens/auxiliaire/auxiliaire4.png',
+      '/img/screens/auxiliaire/auxiliaire5.png',
+      '/img/screens/auxiliaire/auxiliaire6.png',
+      '/img/screens/auxiliaire/auxiliaire7.png',
+      '/img/screens/auxiliaire/auxiliaire8.png'
     ]
   },
   {

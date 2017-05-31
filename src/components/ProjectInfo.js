@@ -71,6 +71,17 @@ export default class ProjectInfo extends React.Component {
                         <img src={project.phonescreens[5]} className='pic-small'/>
                         <img src={project.tabletscreens[2]} className='pic-large'/>
                       </div>
+    } else {
+      screenContent2 = <div style={middleStyle}>
+                        <img src={project.phonescreens[3]} className='pic-small'/>
+                        <img src={project.phonescreens[4]} className='pic-medium'/>
+                        <img src={project.phonescreens[5]} className='pic-small'/>
+                      </div>
+
+      screenContent3 = <div style={middleStyle}>
+                        <img src={project.phonescreens[6]} className='pic-medium'/>
+                        <img src={project.phonescreens[7]} className='pic-medium'/>
+                      </div>
     }
 
     return (
