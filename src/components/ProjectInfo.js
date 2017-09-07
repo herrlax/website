@@ -17,7 +17,7 @@ export default class ProjectInfo extends React.Component {
     }
 
     const topStyle = {
-      'backgroundImage': 'url(/img/' + `${project.top}` + ')',
+      'backgroundImage': 'linear-gradient(-135deg, #' + `${project.gradientStart}` + ' 0%, #' + `${project.gradientEnd}` + ' 100%)',
       'background-size': '100% 100%',
       'background-repeat': 'no-repeat',
       'display': 'flex',
@@ -26,7 +26,7 @@ export default class ProjectInfo extends React.Component {
     };
 
     const bottomStyle = {
-      'backgroundImage': 'url(/img/' + `${project.bottom}` + ')',
+      'backgroundImage': 'linear-gradient(-135deg, #' + `${project.gradientStart}` + ' 0%, #' + `${project.gradientEnd}` + ' 100%)',
       'background-size': '100% 100%',
       'background-repeat': 'no-repeat',
       'display': 'flex',
