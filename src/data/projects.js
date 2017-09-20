@@ -1,5 +1,26 @@
 const projects = [
   {
+    'id':           'musicalarm',
+    'name':         'Music Alarm',
+    'description':  'An Android app that wakes you up to your favorite tunes from Spotify.',
+    'mypart':       'As I developed the app by my self I took the role both as graphical designer and as Android developer.',
+    'thumbnail':    'thumbnails/musicalarm.png',
+    'gradientStart':        '5B5B5B',
+    'gradientEnd':          '222121',
+    'link': {
+      'type': 'github',
+      'link': 'https://github.com/herrlax/MusicAlarm'
+    },
+    'phonescreens': [
+      '/img/screens/musicalarm/musicalarm1.png',
+      '/img/screens/musicalarm/musicalarm2.png',
+      '/img/screens/musicalarm/musicalarm3.png',
+      '/img/screens/musicalarm/musicalarm4.png',
+      '/img/screens/musicalarm/musicalarm5.png',
+      '/img/screens/musicalarm/musicalarm6.png'
+    ]
+  },
+  {
     'id':           'auxiliaire',
     'name':         'Auxiliaire',
     'description':  'Auxiliaire is an Android app that helps people help each other out. It was a project during Gothenburg Startup Hack 2016 with a client app written in Java and a back end written in Ruby on Rails.',
@@ -32,7 +53,7 @@ const projects = [
     'gradientEnd':          'FABEEE',
     'link': {
       'type': 'github',
-      'link': 'https://github.com/capmap/capmap'
+      'link': 'https://github.com/herrlax/capmap'
     },
     'phonescreens': [
       '/img/screens/capmap/map.png',
