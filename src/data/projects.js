@@ -21,6 +21,27 @@ const projects = [
     ]
   },
   {
+    'id':           'swosh',
+    'name':         'Swosh',
+    'description':  'An Android app for creating request links to the populat payment app Swish.',
+    'mypart':       'This application was developed in a team of two where we both has an equal responsibility for development. I was also responsible for the graphical design and UX of the app.',
+    'thumbnail':    'thumbnails/swosh.png',
+    'gradientStart':        '9542EB',
+    'gradientEnd':          '493062',
+    'link': {
+      'type': 'github',
+      'link': 'https://github.com/malmers/SwoshAndroid'
+    },
+    'phonescreens': [
+      '/img/screens/swosh/swosh1.png',
+      '/img/screens/swosh/swosh2.png',
+      '/img/screens/swosh/swosh3.png',
+      '/img/screens/swosh/swosh4.png',
+      '/img/screens/swosh/swosh5.png',
+      '/img/screens/swosh/swosh6.png'
+    ]
+  },
+  {
     'id':           'auxiliaire',
     'name':         'Auxiliaire',
     'description':  'Auxiliaire is an Android app that helps people help each other out. It was a project during Gothenburg Startup Hack 2016 with a client app written in Java and a back end written in Ruby on Rails.',
