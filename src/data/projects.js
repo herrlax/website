@@ -21,6 +21,24 @@ const projects = [
     ]
   },
   {
+    'id':           'friendsradar',
+    'name':         'Your Friends Radar',
+    'description':  'A design of an iPhone app that finds your most like-minded friends based on your listening history on Spotify.',
+    'mypart':       'Graphical designer.',
+    'thumbnail':    'thumbnails/friends.png',
+    'gradientStart':        '9B4EF5',
+    'gradientEnd':          '76C8FF',
+    'link': {
+      'type': 'none',
+      'link': ''
+    },
+    'phonescreens': [
+      '/img/screens/friendsradar/friendsradar1.png',
+      '/img/screens/friendsradar/friendsradar2.png',
+      '/img/screens/friendsradar/friendsradar3.png'
+    ]
+  },
+  {
     'id':           'swosh',
     'name':         'Swosh',
     'description':  'An Android app for creating request links to the populat payment app Swish.',
