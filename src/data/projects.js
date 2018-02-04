@@ -24,7 +24,7 @@ const projects = [
     'id':           'binder',
     'name':         'Binder',
     'description':  'An Android application connecting people with a mutual interest in literature, mixing the social experience of book clubs with the intuitive interactions of Tinder. This project was done by me and 3 other students, where everyone was involved in developing the app, as a part of a project course in Mobile Computing during 8 weeks. The app was built with several external APIs and libraries, such as Google Sign-In, Google’s Text Recognition API and Volley.',
-    'mypart':       'I was engaged as an Android developer during the project',
+    'mypart':       'I was engaged as an Android developer during the project amongst 3 other developers',
     'thumbnail':    'thumbnails/binder.png',
     'gradientStart':        '9B4EF5',
     'gradientEnd':          '76C8FF',
