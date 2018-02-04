@@ -2,8 +2,8 @@ const projects = [
   {
     'id':           'musicalarm',
     'name':         'Music Alarm',
-    'description':  'An Android app that wakes you up to your favorite tunes from Spotify.',
-    'mypart':       'As I developed the app by my self I took the role both as graphical designer and as Android developer.',
+    'description':  'An alarm app that I build on my own for setting alarms using music from Spotify. Building this app I was working a lot with both the Spotify Android SDK and the Spotify Web API.',
+    'mypart':       'As I developed the app by myself I took the role both as graphical designer and as Android developer.',
     'thumbnail':    'thumbnails/musicalarm.png',
     'gradientStart':        '5B5B5B',
     'gradientEnd':          '222121',
@@ -21,11 +21,11 @@ const projects = [
     ]
   },
   {
-    'id':           'friendsradar',
-    'name':         'Your Friends Radar',
-    'description':  'A design of an iPhone app that finds your most like-minded friends based on your listening history on Spotify.',
-    'mypart':       'Graphical designer.',
-    'thumbnail':    'thumbnails/friends.png',
+    'id':           'binder',
+    'name':         'Binder',
+    'description':  'An Android application connecting people with a mutual interest in literature, mixing the social experience of book clubs with the intuitive interactions of Tinder. This project was done by me and 3 other students, where everyone was involved in developing the app, as a part of a project course in Mobile Computing during 8 weeks. The app was built with several external APIs and libraries, such as Google Sign-In, Google’s Text Recognition API and Volley.',
+    'mypart':       'I was engaged as an Android developer during the project',
+    'thumbnail':    'thumbnails/binder.png',
     'gradientStart':        '9B4EF5',
     'gradientEnd':          '76C8FF',
     'link': {
@@ -33,16 +33,19 @@ const projects = [
       'link': ''
     },
     'phonescreens': [
-      '/img/screens/friendsradar/friendsradar1.png',
-      '/img/screens/friendsradar/friendsradar2.png',
-      '/img/screens/friendsradar/friendsradar3.png'
+      '/img/screens/binder/binder1.png',
+      '/img/screens/binder/binder2.png',
+      '/img/screens/binder/binder3.png',
+      '/img/screens/binder/binder4.png',
+      '/img/screens/binder/binder5.png',
+      '/img/screens/binder/binder6.png'
     ]
   },
   {
     'id':           'swosh',
     'name':         'Swosh',
-    'description':  'An Android app for creating request links to the populat payment app Swish.',
-    'mypart':       'This application was developed in a team of two where we both has an equal responsibility for development. I was also responsible for the graphical design and UX of the app.',
+    'description':  'An Android app for generating easy-to-share links for demanding money through the popular payment solution Swish.',
+    'mypart':       'This application was developed in a team of two where we both has an equal responsibility for development. My part was mainly on the front-end side and the design of the graphical interface.',
     'thumbnail':    'thumbnails/swosh.png',
     'gradientStart':        '9542EB',
     'gradientEnd':          '493062',
