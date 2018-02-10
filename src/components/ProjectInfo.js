@@ -3,6 +3,7 @@ import { Link } from 'react-router';
 import NotFound from './NotFound';
 import NavigationMenu from './NavigationMenu';
 import projects from '../data/projects';
+import FaGithub from 'react-icons/lib/fa/github';
 
 export default class ProjectInfo extends React.Component {
 
@@ -38,6 +39,14 @@ export default class ProjectInfo extends React.Component {
       'text-align': 'center',
       'margin-left': 'auto',
       'margin-right': 'auto'
+    };
+
+    const githubLinkStyle = {
+      'font-weight': 'bold',
+      'text-align': 'center',
+      'margin-left': 'auto',
+      'margin-right': 'auto',
+      'margin-bottom': '50px'
     };
 
     let screenContent = null;
@@ -84,6 +93,16 @@ export default class ProjectInfo extends React.Component {
                       </div>
     }
 
+    let githubLink = project.link.type == 'github'
+                ?  <div style={githubLinkStyle}>
+                      <span>Check it out on </span>
+                      <a href={project.link.link}
+                            target='_blank'>
+                        <FaGithub /> Github
+                      </a>
+                    </div>
+                : <div></div>;
+
     return (
       <div>
 
@@ -110,9 +129,9 @@ export default class ProjectInfo extends React.Component {
               </center>
             </div>
           </div>
-
           {screenContent2}
           {screenContent3}
+          {githubLink}
         </div>
       </div>
     );

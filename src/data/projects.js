@@ -29,8 +29,8 @@ const projects = [
     'gradientStart':        '9B4EF5',
     'gradientEnd':          '76C8FF',
     'link': {
-      'type': 'none',
-      'link': ''
+      'type': 'github',
+      'link': 'https://github.com/AFreu/Binder'
     },
     'phonescreens': [
       '/img/screens/binder/binder1.png',
