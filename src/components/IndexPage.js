@@ -11,7 +11,7 @@ export default class IndexPage extends React.Component {
 
         <div className='project-area'>
           <div className='project-area-label'>
-            <p className='heading' id='portfoilio'>Portfoilio</p>
+            <p className='heading' id='portfoilio'>Projects</p>
           </div>
             {projects.map(p => <ProjectCard key={p.id} {...p} />)}
           <Footer id='contactMe' />

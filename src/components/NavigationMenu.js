@@ -15,7 +15,7 @@ export default class NavigationMenu extends React.Component {
               </span>
               <span className='navigation-menu-links'>
                 <span className='navigation-menu-links-item'>
-                  <a href='/#portfoilio'>Portfoilio</a>
+                  <a href='/#portfoilio'>Projects</a>
                 </span>
                 <span className='navigation-menu-links-item'>
                   <a href='/#contactMe'>Contact</a>
