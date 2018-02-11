@@ -33,7 +33,7 @@ const projects = [
       'link': 'http://github.com/herrlax/proposer' },
       {
       'type': 'app',
-      'link': 'http://proposer.malmqvist.it/'}],
+      'link': 'http://ec2-35-157-185-249.eu-central-1.compute.amazonaws.com:3000/'}],
     'macscreens': [
       '/img/screens/proposer/proposer1.png',
       '/img/screens/proposer/proposer2.png',
