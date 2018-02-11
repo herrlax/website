@@ -35,27 +35,21 @@ a {
 
 @media (min-width: 900px) {
   .pic-small {
-    width: 350px !important;
+    width: 400px !important;
     margin-left: -100px;
     margin-right: -100px;
   }
   .pic-medium {
-    width: 400px !important;
+    width: 450px !important;
   }
   .pic-large {
-    width: 550px !important;
-  }
-}
-
-@media (max-width: 1000px) {
-  .pic-large {
-    max-width: 90% !important;
+    width: 80% !important;
   }
 }
 
 @media (min-width: 1200px) {
   .pic-large {
-    width: 800px !important;
+    width: 1000px !important;
   }
 }
 
@@ -169,6 +163,11 @@ a {
     margin-right: auto;
     margin-top: 75px;
     margin-bottom: 75px;
+}
+
+.project-info a {
+  color: #fff;
+  font-weight: bold;
 }
 
 .project-info-text {

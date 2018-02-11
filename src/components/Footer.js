@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router';
-//import FaIconPack from 'react-icons/lib/fa';
 import FaGithub from 'react-icons/lib/fa/github';
 import FaLinkedin from 'react-icons/lib/fa/linkedin';
 import FaEnvelope from 'react-icons/lib/fa/envelope';
@@ -24,7 +23,7 @@ export default class Layout extends React.Component {
 
             <p>The easiest way to get in touch with me is via email, but you can also reach me via LinkedIn.
             If you are interested in code I write, check out my Github.</p>
-            
+
             <div className='contact-area-text-links'>
               <div>
                 <a href='mailto:mikael@malmqvist.it'

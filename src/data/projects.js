@@ -7,10 +7,10 @@ const projects = [
     'thumbnail':    'thumbnails/musicalarm.png',
     'gradientStart':        '5B5B5B',
     'gradientEnd':          '222121',
-    'link': {
+    'links': [{
       'type': 'github',
       'link': 'https://github.com/herrlax/MusicAlarm'
-    },
+    }],
     'phonescreens': [
       '/img/screens/musicalarm/musicalarm1.png',
       '/img/screens/musicalarm/musicalarm2.png',
@@ -21,6 +21,26 @@ const projects = [
     ]
   },
   {
+    'id':           'proposer',
+    'name':         'Playlist Proposer',
+    'description':  'A web application that, based on song data and audio features, suggests what Spotify playlist to add the currently playing song to. I wrote this application by myself as a hobby project to learn more web development. It is written in Javascript using React for the front-end and Node.js for the backend, as well as the Spotify Web API to analyze the currently playing song, songs in playlists and add to playlist.',
+    'mypart':       '',
+    'thumbnail':    'thumbnails/proposer.png',
+    'gradientStart':        '3C51B8',
+    'gradientEnd':          'C788F1',
+    'links': [{
+      'type': 'github',
+      'link': 'http://github.com/herrlax/proposer' },
+      {
+      'type': 'app',
+      'link': 'http://proposer.malmqvist.it/'}],
+    'macscreens': [
+      '/img/screens/proposer/proposer1.png',
+      '/img/screens/proposer/proposer2.png',
+      '/img/screens/proposer/proposer3.png'
+    ]
+  },
+  {
     'id':           'binder',
     'name':         'Binder',
     'description':  'An Android application connecting people with a mutual interest in literature, mixing the social experience of book clubs with the intuitive interactions of Tinder. This project was done by me and 3 other students, where everyone was involved in developing the app, as a part of a project course in Mobile Computing during 8 weeks. The app was built with several external APIs and libraries, such as Google Sign-In, Google’s Text Recognition API and Volley.',
@@ -28,10 +48,10 @@ const projects = [
     'thumbnail':    'thumbnails/binder.png',
     'gradientStart':        '9B4EF5',
     'gradientEnd':          '76C8FF',
-    'link': {
+    'links': [{
       'type': 'github',
       'link': 'https://github.com/AFreu/Binder'
-    },
+    }],
     'phonescreens': [
       '/img/screens/binder/binder1.png',
       '/img/screens/binder/binder2.png',
@@ -49,10 +69,10 @@ const projects = [
     'thumbnail':    'thumbnails/swosh.png',
     'gradientStart':        '9542EB',
     'gradientEnd':          '493062',
-    'link': {
+    'links': [{
       'type': 'github',
       'link': 'https://github.com/malmers/SwoshAndroid'
-    },
+    }],
     'phonescreens': [
       '/img/screens/swosh/swosh1.png',
       '/img/screens/swosh/swosh2.png',
@@ -70,10 +90,10 @@ const projects = [
     'thumbnail':    'thumbnails/auxiliaire.png',
     'gradientStart':        'FF82C1',
     'gradientEnd':          'FFC6FD',
-    'link': {
+    'links': [{
       'type': 'github',
       'link': 'https://github.com/AuxiliaireSH/android-app'
-    },
+    }],
     'phonescreens': [
       '/img/screens/auxiliaire/auxiliaire1.png',
       '/img/screens/auxiliaire/auxiliaire2.png',
@@ -93,10 +113,10 @@ const projects = [
     'thumbnail':    'thumbnails/capmap.png',
     'gradientStart':        '9794FF',
     'gradientEnd':          'FABEEE',
-    'link': {
+    'links': [{
       'type': 'github',
       'link': 'https://github.com/herrlax/capmap'
-    },
+    }],
     'phonescreens': [
       '/img/screens/capmap/map.png',
       '/img/screens/capmap/search.png',
@@ -115,10 +135,7 @@ const projects = [
     'thumbnail':    'thumbnails/settlers.png',
     'gradientStart':        'A67DC2',
     'gradientEnd':          'BCF2EC',
-    'link': {
-      'type': 'none',
-      'link': ''
-    },
+    'links': [],
     'phonescreens': [
       '/img/screens/settlers/settlers1.png',
       '/img/screens/settlers/settlers2.png',
@@ -144,10 +161,10 @@ const projects = [
     'thumbnail':    'thumbnails/faluna.png',
     'gradientStart':        '739BD0',
     'gradientEnd':          '9369D0',
-    'link': {
-      'type': 'none',
-      'link': ''
-    },
+    'links': [{
+      'type': 'play',
+      'link': 'https://play.google.com/store/apps/details?id=com.falunaautomationab.falunaalarmapp&hl=sv'
+    }],
     'phonescreens': [
       '/img/screens/faluna/faluna1.png',
       '/img/screens/faluna/faluna2.png',
@@ -162,10 +179,10 @@ const projects = [
     'thumbnail':    'thumbnails/plus.png',
     'gradientStart':        '2AD0FF',
     'gradientEnd':          'B3D2FF',
-    'link': {
-      'type': 'none',
-      'link': ''
-    },
+    'links': [{
+      'type': 'play',
+      'link': 'https://play.google.com/store/apps/details?id=com.rawa.plus&hl=sv'
+    }],
     'phonescreens': [
       '/img/screens/plus/plus1.png',
       '/img/screens/plus/plus2.png',

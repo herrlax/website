@@ -4,6 +4,7 @@ import NotFound from './NotFound';
 import NavigationMenu from './NavigationMenu';
 import projects from '../data/projects';
 import FaGithub from 'react-icons/lib/fa/github';
+import FaGlobe from 'react-icons/lib/fa/globe';
 
 export default class ProjectInfo extends React.Component {
 
@@ -41,23 +42,31 @@ export default class ProjectInfo extends React.Component {
       'margin-right': 'auto'
     };
 
-    const githubLinkStyle = {
-      'font-weight': 'bold',
+    const externalLinkStyle = {
       'text-align': 'center',
       'margin-left': 'auto',
-      'margin-right': 'auto',
-      'margin-bottom': '50px'
+      'margin-right': 'auto'
     };
 
     let screenContent = null;
     let screenContent2 = null;
     let screenContent3 = null;
 
-    screenContent = <div style={middleStyle}>
-                      <img src={project.phonescreens[0]} className='pic-small'/>
-                      <img src={project.phonescreens[1]} className='pic-medium'/>
-                      <img src={project.phonescreens[2]} className='pic-small'/>
-                    </div>
+    if(project.macscreens) {
+      screenContent = <div style={middleStyle}>
+                        <img src={project.macscreens[0]} className='pic-large'/>
+                        <img src={project.macscreens[1]} className='pic-large'/>
+                        <img src={project.macscreens[2]} className='pic-large'/>
+                      </div>
+    }
+
+    if(project.phonescreens) {
+      screenContent = <div style={middleStyle}>
+                        <img src={project.phonescreens[0]} className='pic-small'/>
+                        <img src={project.phonescreens[1]} className='pic-medium'/>
+                        <img src={project.phonescreens[2]} className='pic-small'/>
+                      </div>
+    }
 
     if(project.phonescreensLandscape) {
       screenContent2 =  <div style={middleStyle}>
@@ -81,27 +90,60 @@ export default class ProjectInfo extends React.Component {
                         <img src={project.tabletscreens[2]} className='pic-large'/>
                       </div>
     } else {
-      screenContent2 = <div style={middleStyle}>
-                        <img src={project.phonescreens[3]} className='pic-small'/>
-                        <img src={project.phonescreens[4]} className='pic-medium'/>
-                        <img src={project.phonescreens[5]} className='pic-small'/>
-                      </div>
+      if(project.phonescreens && project.phonescreens.length > 3) {
+        screenContent2 = <div style={middleStyle}>
+                          <img src={project.phonescreens[3]} className='pic-small'/>
+                          <img src={project.phonescreens[4]} className='pic-medium'/>
+                          <img src={project.phonescreens[5]} className='pic-small'/>
+                        </div>
 
-      screenContent3 = <div style={middleStyle}>
-                        <img src={project.phonescreens[6]} className='pic-medium'/>
-                        <img src={project.phonescreens[7]} className='pic-medium'/>
-                      </div>
+        screenContent3 = <div style={middleStyle}>
+                          <img src={project.phonescreens[6]} className='pic-medium'/>
+                          <img src={project.phonescreens[7]} className='pic-medium'/>
+                        </div>
+      }
     }
 
-    let githubLink = project.link.type == 'github'
-                ?  <div style={githubLinkStyle}>
-                      <span>Check it out on </span>
-                      <a href={project.link.link}
-                            target='_blank'>
-                        <FaGithub /> Github
-                      </a>
-                    </div>
-                : <div></div>;
+    let externalLink = <div></div>
+
+    if(project.links.length > 0) {
+
+      let githubLink = <span></span>;
+      let playLink = <span></span>;
+      let appLink = <span></span>;
+
+      project.links.forEach(function(l) {
+
+        if(l.type == 'github') {
+          githubLink = <a href={l.link} target='_blank'> <FaGithub /> Github </a>;
+        } else if(l.type == 'play') {
+          githubLink = <a href={l.link} target='_blank'> Google Play </a>;
+        } else if(l.type == 'app') {
+          appLink = <a href={l.link} target='_blank'> <FaGlobe /> Online </a>;
+        }
+
+      });
+
+      externalLink =
+          <div style={externalLinkStyle}>
+            <span>Check it out here: </span>
+            {githubLink}
+            {playLink}
+            {appLink}
+          </div>;
+
+    }
+
+    let myPartContent = project.mypart && project.myPart != ''
+      ? <div style={bottomStyle}>
+        <div className='project-info'>
+          <div className='heading-large'>My Part</div>
+          <center>
+            <div className='project-info-text'>{project.mypart}</div>
+          </center>
+        </div>
+      </div>
+      : <div></div>;
 
     return (
       <div>
@@ -116,22 +158,14 @@ export default class ProjectInfo extends React.Component {
                 <center>
                   <div className='project-info-text'>{project.description}</div>
                 </center>
+                {externalLink}
             </div>
           </div>
 
           {screenContent}
-
-          <div style={bottomStyle}>
-            <div className='project-info'>
-              <div className='heading-large'>My Part</div>
-              <center>
-                <div className='project-info-text'>{project.mypart}</div>
-              </center>
-            </div>
-          </div>
+          {myPartContent}
           {screenContent2}
           {screenContent3}
-          {githubLink}
         </div>
       </div>
     );
